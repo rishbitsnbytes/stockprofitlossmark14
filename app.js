@@ -12,7 +12,7 @@ function calculate() {
     var totalCrntValue = sPQ.value * cMP.value;
     var finalCalc = totalCrntValue - totalPP;
     var finalCalcPerc = (finalCalc / totalPP) * 100;
-    finalCalcPerc = parseFloat(finalCalcPerc).toFixed(2);
+    finalCalcPerc = finalCalcPerc.toFixed(2);
 
     if (finalCalc === 0) {
         var finalSatus = "Nothing";
