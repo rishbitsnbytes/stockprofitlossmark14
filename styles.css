@@ -9,12 +9,20 @@ body {
     background-color: var(--prm-color);
     font-family: 'Lobster Two', cursive;
     
+}
 
+.body-section{
+    margin: auto;
+    border: 2px solid var(--sec-color);
+    border-radius: 1rem;
+    padding: 2rem;
+    width: fit-content;
+    height: fit-content;
 }
 
 h1 {
     text-align: center;
-    padding: 2rem 1rem 1em 1rem;
+    padding: 0.5rem 0.5rem 1rem;
     font-size: 3rem;
     margin: auto;
     color : var(--sec-color);
@@ -73,7 +81,7 @@ h4 {
     border-radius: 0.5rem;
     padding: 1rem;
     width: 30rem;
-    margin: auto;
+    margin: auto auto 1rem;
     font-size: 1.5rem;
     text-align: center;
     color: var(--sec-color);
